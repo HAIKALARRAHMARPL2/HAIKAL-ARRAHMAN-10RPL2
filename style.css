@@ -52,9 +52,9 @@
 
 /* Info panel*/
 .info-panel{
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
     border-radius: 12px;
-    margin-top: -100px;
+    margin-top: -80px;
     background-color: white;
 }
 
@@ -76,7 +76,7 @@
     font-size: 14px;
     color: #acacac;
     margin-top: -5px;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 
@@ -87,7 +87,8 @@
 /* UNILITY */
 .tombol{
     text-transform: uppercase;
-    border-bottom: 40px;
+    border-bottom: 100px;
+    border-top: 40px;
 }
 
 
@@ -145,7 +146,7 @@
 @media (min-width: 992px) {
     .navbar-brand, .nav-link{
     color: white !important;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     }
 
 
@@ -189,6 +190,13 @@
 .testimonial h5{
     font-size: 32px;
 }
+
+
+.tombol{
+    border-bottom: 40px;
+    text-transform: center;
+}
+
 
 
 }
